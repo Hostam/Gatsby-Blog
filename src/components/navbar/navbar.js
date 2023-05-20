@@ -8,9 +8,10 @@ import * as navbarStyles from "./navbar.module.scss";
 
 const Navbar = ({ items }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   const [size, setSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: "undefined",
+    height: "undefined",
   });
 
   useEffect(() => {
