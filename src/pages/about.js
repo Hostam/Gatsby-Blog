@@ -1,8 +1,8 @@
 import React from "react";
 import Layout from "../components/layout/layout";
 
-const Home = () => {
-  return <Layout>Home Page</Layout>;
+const About = () => {
+  return <Layout>About Page</Layout>;
 };
 
-export default Home;
+export default About;
